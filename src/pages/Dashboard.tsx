@@ -184,7 +184,7 @@ export default function Dashboard() {
               <h1 className="text-xl lg:text-2xl font-bold bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent truncate">
                 Hola, {currentProfile.name}
               </h1>
-              <p className="text-sm text-muted-foreground truncate">
+              <p className="bg-gradient-to-r from-primary to-secondary bg-clip-text">
                 {new Date().toLocaleDateString('es-MX', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' })}
               </p>
             </div>
